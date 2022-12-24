@@ -1,0 +1,148 @@
+.detail-page {
+  width: 90%;
+  margin: 30px 0;
+}
+
+.detail-content {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 auto;
+  width: 100%;
+}
+
+.content-row-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 0;
+  flex-direction: column;
+}
+
+.content-row-one img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px grey;
+}
+
+.content-row-one .description p {
+  font-family: "Nunito", sans-serif;
+}
+
+.content-row-one .description h2 {
+  text-align: center;
+  border-bottom: #111111 solid 1px;
+  margin: 15px 0;
+  padding: 5px 15px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.content-row-two {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  flex-direction: column;
+}
+
+.content-row-two .information {
+  padding: 5px 15px;
+  width: 100%;
+  border: 1px solid #393e46;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+}
+
+.content-row-two .information table {
+  width: 100%;
+}
+
+.content-row-two .menu-container {
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+.content-row-two .menu-container h2 {
+  text-align: center;
+  font-family: "Pt Sans", sans-serif;
+  border-bottom: #111111 solid 1px;
+  margin: 10px 15%;
+  padding: 5px 15px;
+}
+
+.detail-menu {
+  display: flex;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+.detail-menu .menu h3 {
+  text-align: center;
+  font-family: "Pt Sans", sans-serif;
+}
+
+.detail-menu .menu {
+  margin: 0;
+  width: 50%;
+  padding: 5px;
+}
+
+.content-row-three {
+  border: 1px solid #393e46;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.content-row-three h2 {
+  text-align: center;
+  font-family: "Pt Sans", sans-serif;
+  margin: 10px 15%;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-item {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.review-name {
+  font-family: "Pt Sans", sans-serif;
+  font-weight: bold;
+}
+
+.review-date {
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+}
+
+.review-des {
+  font-family: "Nunito", sans-serif;
+}
+
+.like {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #393e46;
+
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}

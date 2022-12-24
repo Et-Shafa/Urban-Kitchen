@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#393e46">
+  <meta name="description"
+    content="Temukan Restoran yang kamu inginkan disini. Kamu dapat mengetahui detail restoran yang kamu cari dan rating restoran.">
+
+  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="icon" href="./icons/restaurant-144x144.png">
+  <link rel="apple-touch-icon" href="./icons/restaurant-144x144.png">
+
+  <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+
+  <title>Urban Kitchen</title>
+</head>
+
+<body>
+
+  <a tabindex="-1" href="#maincontent" class="skip-link">Menuju ke konten</a>
+  <header>
+    <button class="menuToggle">
+      <i class="fa fa-bars bars"></i>
+      <i class="fa fa-times close"></i>
+    </button>
+    <div class="background-drawer"></div>
+    <picture class="lazyload">
+      <source class="lazyload" type="image/webp" srcset="./logo-restaurant.webp">
+      <source class="lazyload" type="image/png" srcset="./logo-restaurant.png">
+      <img class="lazyload" src='./logo-restaurant.png' alt="logo">
+    </picture>
+    <div class="navigation">
+      <nav>
+        <ul>
+          <li><a href="#/homepage">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li><a href="https://www.linkedin.com/in/shafa-kamila-678407207/" target="_blank">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+
+  <div class="jumbotron">
+    <picture class="lazyload">
+      <source class="lazyload" type="image/webp" media="(max-width: 480px)" srcset="./images/hero-image_2-small.jpg">
+      <source class="lazyload" type="image/jpeg" media="(max-width: 480px)" srcset="./images/hero-image_2-small.jpg">
+      <source class="lazyload" type="image/webp" media="(max-width: 800px)" srcset="./images/hero-image_2-large.jpg">
+      <source class="lazyload" type="image/jpeg" media="(max-width: 800px)" srcset="./images/hero-image_2-large.jpg">
+      <!-- <source media="(max-width: 800px)" srcset="./images/hero-image_2-large.jpg"> -->
+      <img class="lazyload" src='./images/hero-image_2-xlarge.jpg' alt="jumbotron">
+    </picture>
+  </div>
+
+  <main tabindex="0" id="maincontent">
+  </main>
+
+  <footer>
+    <p>&copy; 2022 - Shafa Kamila | Urban Kitchen</p>
+  </footer>
+
+</body>
+
+</html>

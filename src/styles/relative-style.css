@@ -1,0 +1,182 @@
+@import url("../styles/style.css");
+@import url("../styles/detail-page-style.css");
+
+@media screen and (min-width: 480px) {
+  header picture img {
+    margin: 0;
+    width: 75px
+  }
+
+  .menuToggle {
+    display: none;
+  }
+
+  .navigation {
+    width: max-content;
+    height: min-content;
+    position: static;
+    background-color: rgba(51, 51, 51, 0);
+  }
+
+  .navigation nav {
+    margin-top: 0;
+    min-height: 0;
+  }
+
+  .navigation nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navigation nav ul li {
+    margin: 2px;
+    width: max-content;
+  }
+  .navigation nav ul li a {
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+  }
+
+  .navigation nav ul li a.active,
+  .navigation nav ul li a:hover {
+    color: #eeeeee;
+    background: #393e46;
+  }
+
+  .restaurant-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  article {
+    height: 100%;
+  }
+
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-header {
+    height: 60%;
+  }
+
+  .card-header img {
+    height: 100%;
+  }
+
+  .card-detail {
+    height: 40%;
+  }
+
+  /* detail-page */
+  .detail-page {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header picture img {
+    width: 90px;
+    /* min-width: 90px; */
+    min-height: 50px;
+  }
+
+  .jumbotron img{
+    width: 100%;
+    /* min-width: 768px; */
+  }
+
+  .container {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container img {
+    width: 10%;
+    justify-content: center;
+  }
+
+  .restaurant-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  article {
+    height: 100%;
+  }
+
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-header {
+    height: 60%;
+  }
+
+  .card-header img {
+    height: 100%;
+  }
+
+  .card-detail {
+    height: 40%;
+  }
+
+  .card-detail h4 {
+    font-size: 1.5vw;
+  }
+
+  .card-detail h2 {
+    font-size: 1.8vw;
+  }
+
+  .card-detail p {
+    -webkit-line-clamp: 3;
+    font-size: 1.3vw;
+  }
+
+  .navigation {
+    display: block;
+  }
+
+  .navigation-drawer {
+    display: none;
+  }
+
+  /* detail-page */
+  .detail-page {
+    width: 90%;
+  }
+  
+  .content-row-one {
+    flex-direction: row;
+    border: 1px solid #393e46;
+    border-radius: 5px;
+  }
+
+  .content-row-one img {
+    width: 40%;
+    box-shadow: 1px 5px 10px grey;
+  }
+
+  .content-row-one .description {
+    width: 55%;
+    border-radius: 10px;
+  }
+
+  .content-row-two .information {
+    margin: 10px 0;
+  }
+
+  .content-row-two .menu-container {
+    border: 1px solid #393e46;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron img {
+    width: full-width;
+  }
+}
